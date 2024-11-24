@@ -45,18 +45,21 @@ In the `CSF_elaTCSF_sample_usage.m` file, we provide two examples:
 Our code includes three potential applications of elaTCSF.
 ### I. Prediction of Frame Rate Range for VRR Displays
 elaTCSF calculates flicker-free refresh rate ranges for VRR displays at varying luminance levels, providing a robust alternative to manual adjustment of refresh rate ranges. In a simulated 27-inch 24–144 Hz display, elaTCSF determines the lower bound of the flicker-free range by intersecting VRR-induced contrast curves with detection thresholds across luminance levels, ensuring effective flicker mitigation.
+
 <img src="imgs/app_VRR.png" width="600"/>
 
 Using `Application_VRR_range.m`
 
 ### II. Low persistence flicker in VR headsets
 elaTCSF predicts critical flicker fusion (CFF) thresholds for VR headsets, addressing low-persistence flicker under varying luminance and FoV conditions. Results highlight how refresh rates must adapt to prevent visible flicker as luminance increases.
+
 <img src="imgs/app_VR.png" width="600"/>
 
 Using `Application_VR_headset.m`
 
 ### III. Application in lighting design
 elaTCSF improves flicker sensitivity predictions for modern lighting systems, addressing limitations in current IEC standards based on outdated TCSF measurements. Unlike prior models, elaTCSF accounts for luminance and viewing conditions, enabling perceptually accurate updates to the lighting flicker index.
+
 <img src="imgs/app_Light.png" width="600"/>
 
 Using `Application_Light_Design.m`

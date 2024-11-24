@@ -1,7 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from scipy.integrate import dblquad
-
 
 class elTCSF:
     # Temporal Contrast Sensitivity Function based on temporal frequency, eccentricity, and luminance (no area)
@@ -118,7 +116,8 @@ if __name__ == '__main__':
     # Instantiate the extended TCSF model
     CSF_elaTCSF = elaTCSF()
     # Compute sensitivity for a circular area with a given radius
-    S_disk_radius_16 = CSF_elaTCSF.sensitivity_disk(eccentricity=10, luminance=3, radius=16, t_frequency=10)
+    S_disk_radius_20 = CSF_elaTCSF.sensitivity_disk(eccentricity=10, luminance=3, radius=20, t_frequency=10)
     # Compute sensitivity for a rectangular area with specified width and height
     S_rectangle_width_40_height_32 = CSF_elaTCSF.sensitivity_rectangle(eccentricity=10, luminance=3, width=40, height=32, t_frequency=10)
+    X = 1
 

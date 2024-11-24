@@ -1,6 +1,8 @@
 # elaTCSF: A Temporal Contrast Sensitivity Function for Flicker Detection and Modeling Variable Refresh Rate Flicker
 Published at SIGGRAPH Asia 2024
 
+<img src="imgs/3_Logo_Long_Date_B.png" width="400"/>
+
 <a href="https://caiyancheng.github.io/academic.html">Yancheng Cai</a>,
 <a href="https://www.ntnu.edu/employees/ali.bozorgian">Ali Bozorgian</a>,
 <a href="https://malihaashraf.github.io/">Maliha Ashraf</a>,

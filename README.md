@@ -9,7 +9,7 @@ Published at SIGGRAPH Asia 2024
 <a href="https://www.linkedin.com/in/robert-wanat-0816a090">Robert Wanat</a>,
 <a href="https://www.cl.cam.ac.uk/~rkm38/">Rafał K. Mantiuk</a>
 
-[Project Page](https://www.cl.cam.ac.uk/research/rainbow/projects/elaTCSF/) | [Paper](https://caiyancheng.github.io/papers/elaTCSF_siggraph_asia_2024.pdf) | [Datasets](flicker_detection_datasets.csv)
+[Project Page](https://www.cl.cam.ac.uk/research/rainbow/projects/elaTCSF/) | [Paper](https://caiyancheng.github.io/papers/elaTCSF_siggraph_asia_2024.pdf) | [VRR Flicker Datasets](flicker_detection_datasets.csv)
 
 <img src="imgs/teaser.png" width="1000" />
 
